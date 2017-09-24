@@ -11,7 +11,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             bool success;
-            Console.WriteLine("Hello World!!!!");
+            Console.WriteLine("Hello World!!");
             string readin = Console.ReadLine();
             PrintOut(ref readin, out success);
             Console.WriteLine(success);
