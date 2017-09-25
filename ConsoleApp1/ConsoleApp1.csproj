@@ -64,12 +64,16 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="xunit_files\xunit.runner.visualstudio.props" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="xunit_files\xunit.abstractions.dll" />
     <Content Include="xunit_files\xunit.assert.dll" />
     <Content Include="xunit_files\xunit.core.dll" />
     <Content Include="xunit_files\xunit.execution.desktop.dll" />
+    <Content Include="xunit_files\xunit.runner.reporters.net452.dll" />
+    <Content Include="xunit_files\xunit.runner.utility.net35.dll" />
+    <Content Include="xunit_files\xunit.runner.visualstudio.dotnetcore.testadapter.dll" />
     <Content Include="xunit_files\xunit.runner.visualstudio.testadapter.dll" />
   </ItemGroup>
   <ItemGroup>
