@@ -62,5 +62,11 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="xunit_files\xunit.abstractions.dll" />
+    <Content Include="xunit_files\xunit.assert.dll" />
+    <Content Include="xunit_files\xunit.core.dll" />
+    <Content Include="xunit_files\xunit.execution.desktop.dll" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
