@@ -10,7 +10,7 @@ namespace ConsoleApp1
 {
     class Program
     {
-        /*static void Main(string[] args)
+        static void Main(string[] args)
         {
             bool success;
             Console.WriteLine("Hello World!!");
@@ -19,7 +19,7 @@ namespace ConsoleApp1
             Console.WriteLine(success);
             Console.ReadLine();
 
-        }*/
+        }
 
         public static void PrintOut(ref string readin, out bool success)
         {
