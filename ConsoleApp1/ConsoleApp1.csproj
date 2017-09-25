@@ -67,6 +67,7 @@
     <None Include="packages\xunit.runner.visualstudio.2.2.0\build\net20\xunit.runner.visualstudio.props" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="packages\xunit.runner.reporters.netstandard15.dll" />
     <Content Include="xunit_files\xunit.abstractions.dll" />
     <Content Include="xunit_files\xunit.assert.dll" />
     <Content Include="xunit_files\xunit.core.dll" />
