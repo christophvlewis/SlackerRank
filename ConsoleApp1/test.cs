@@ -14,7 +14,7 @@ namespace ConsoleApp1
 		public void testhello()
 		{
 			bool success = false;
-			string hello = "Hello World!!!";
+			string hello = "Hello World!!!adfasefaef";
 			Program.PrintOut(ref hello, out success);
 			Assert.True(success);
 
